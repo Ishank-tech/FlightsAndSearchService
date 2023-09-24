@@ -61,7 +61,7 @@ const get = async (req, res) => {
         });
     }
 }
-error
+
 const update = async (req, res) => {
     try {
         const response = await cityService.updateCity(req.params.id, req.body);
