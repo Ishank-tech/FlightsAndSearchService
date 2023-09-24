@@ -68,7 +68,7 @@ const update = async (req, res) => {
         return res.status(200).json({
         data: response,
         success: true,
-        message: "Successfully fetched a city",
+        message: "Successfully updated a city",
         err: {}
         });
     } catch (error) {
